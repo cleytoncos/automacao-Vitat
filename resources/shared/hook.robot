@@ -10,12 +10,11 @@ Start the session
   ...  platformName=Android
   ...  deviceName=emulator-5554
   ...  appPackage=br.com.rdsaude.healthPlatform.android
-  ...  appActivity=br.com.rdsaude.healthPlatform.android.MainActivity
+  ...  appActivity=staging.MainActivity
   ...  automationName=Uiautomator2
-  
+
 
 Close the Session
   [Documentation]  Close the session of test
   Sleep  3
   Close All Applications
-  

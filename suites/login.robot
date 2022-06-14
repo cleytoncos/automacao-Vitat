@@ -5,11 +5,9 @@ Test Setup     Start the session
 Test Teardown  Close the Session
 
 
-
 *** Test Case ***
-cenario 1: acesso a login no app
+Cenário 1: acesso a login no app código incorreto
     [tags]  1  smoke
-    Sleep    60s
     Dado que estou na tela de login
     E digito o email
     E clico no botão continuar
